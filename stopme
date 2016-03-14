@@ -1,6 +1,7 @@
 DATE=$(date)
-PWD=$(pwd)
-source $PWD/meteor-settings
+PWD="/Users/lil/treetoweb/dev.treetoweb.com"
+PORT=3000
+#source $PWD/meteor-settings
 
 echo $DATE
 echo "Stopping all processes owned by $PWD ..."

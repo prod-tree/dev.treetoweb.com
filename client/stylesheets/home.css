@@ -1,8 +1,8 @@
 .cover{
   color: rgb(255, 255, 255);
   position: relative;
-  min-height: 680px;
-  padding-top:80px;
+  min-height: 80px;
+  padding-top:10px;
   background: url("/images/splash/treetoweb.gif") no-repeat scroll 0px 100% / cover transparent;
   border-bottom:9px solid #7b9ed0;
 }
@@ -16,7 +16,7 @@
   margin:0
 }
 .jumbotron p.lead {
-  font-family:"Georgia";
+  font-family:"Helvetica";
   text-align:center;
   font-size:36px;
   font-style:italic;
