@@ -1,8 +1,10 @@
 DATE=$(date)
 #PWD="/Users/lil/treetoweb/dev.treetoweb.com"
+PWD=`pwd`
 PORT=3000
 #source $PWD/meteor-settings
 
 echo $DATE
 echo "Stopping all processes owned by $PWD ..."
 ps -ef |grep $PORT | grep -v grep | awk '{ print $2 }' | xargs kill -9
+ps -ef |grep $PWD | grep -v grep | awk '{ print $2 }' | xargs kill -9
