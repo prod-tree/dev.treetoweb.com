@@ -1,5 +1,5 @@
 DATE=$(date)
-PWD="/Users/lil/treetoweb/dev.treetoweb.com"
+#PWD="/Users/lil/treetoweb/dev.treetoweb.com"
 PORT=3000
 #source $PWD/meteor-settings
 
